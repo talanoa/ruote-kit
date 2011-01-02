@@ -9,17 +9,17 @@
 
     %link{ :type => 'image/vnd.microsoft.icon', :href => '/_ruote/images/favicon.ico', :rel => 'icon' }
 
-    %link{ :type => 'text/css', :href => '/_ruote/stylesheets/reset.css', :rel => 'stylesheet' }
-    %link{ :type => 'text/css', :href => '/_ruote/stylesheets/rk.css', :rel => 'stylesheet' }
+    %link{ :type => 'text/css', :href => '/stylesheets/_ruote/reset.css', :rel => 'stylesheet' }
+    %link{ :type => 'text/css', :href => '/stylesheets/_ruote/rk.css', :rel => 'stylesheet' }
 
-    %script{ :type => 'text/javascript', :src => '/_ruote/javascripts/jquery-1.4.2.min.js' }
-    %script{ :type => 'text/javascript', :src => '/_ruote/javascripts/rk.js' }
+    %script{ :type => 'text/javascript', :src => '/javascripts/_ruote/jquery-1.4.2.min.js' }
+    %script{ :type => 'text/javascript', :src => '/javascripts/_ruote/rk.js' }
 
     - if @_uses_fluo
-      %script{ :type => 'text/javascript', :src => '/_ruote/javascripts/ruote-fluo.js' }
-      %script{ :type => 'text/javascript', :src => '/_ruote/javascripts/ruote-fluo-editor.js' }
-      %link{ :type => 'text/css', :href => '/_ruote/stylesheets/ruote-fluo-editor.css', :rel => 'stylesheet' }
-      - #%script{ :type => "text/javascript", :src => "/_ruote/javascripts/fluo-dial.js" }
+      %script{ :type => 'text/javascript', :src => '/javascripts/_ruote/ruote-fluo.js' }
+      %script{ :type => 'text/javascript', :src => '/javascripts/_ruote/ruote-fluo-editor.js' }
+      %link{ :type => 'text/css', :href => '/stylesheets/_ruote/ruote-fluo-editor.css', :rel => 'stylesheet' }
+      - #%script{ :type => "text/javascript", :src => "/javascripts/_ruote/fluo-dial.js" }
 
   %body
     #container
